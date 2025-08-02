@@ -18,7 +18,7 @@ My initial discovery centered on the URL: https://acc01.titanos.tv/.
 
 During my investigation, I discovered a hidden feature that could be accessed via the famous Konami code on the TV remote.
 
-    The Code: When entering the Konami code (Up, Up, Down, Down, Left, Right, Left, Right, B, A) with the TV's remote, a menu related to a platform called "Freely" appears.
+    The Code: When entering the Konami code (Up, Up, Down, Down, Left, Right, Left, Right, OK, OK) with the TV's remote, a menu related to a platform called "Freely" appears.
 
     The Service: Freely is a new, UK-based, free-to-air streaming platform backed by major broadcasters. Recent news articles confirm that Freely is being implemented on Titan OS through a partnership with TV manufacturers.
 
