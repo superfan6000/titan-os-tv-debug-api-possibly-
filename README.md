@@ -5,6 +5,8 @@ This repository documents my findings regarding a hidden developer-centric debug
 Through independent research and testing, I’ve uncovered accessible URLs and Easter eggs that provide a rare look into the development process of Titan OS and how new features are staged and tested before public rollout.
 🖥️ Discovery of the Debugging Interface (https://acc01.titanos.tv/)
 
+# what i discovered: 
+
 I discovered that the URL https://acc01.titanos.tv/ is publicly accessible through any web browser, with no authentication or security restrictions.
 
 This URL loads a live version of the Titan OS home screen interface, including banners, apps, and sections that are not yet available to consumers. The subdomain acc01 likely refers to “Access Control”, a common naming convention used for development or staging environments.
@@ -46,4 +48,4 @@ This indicates that Titan OS firmware contains developer/test modes, allowing de
 # ⚠️ Disclaimer
 
 This repository is for educational and research purposes only.
-I do encourage or condone any misuse of this information.
+I do encourage any misuse of this information.
