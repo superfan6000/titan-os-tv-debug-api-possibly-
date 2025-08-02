@@ -12,6 +12,8 @@ I discovered that the URL https://acc01.titanos.tv/ is publicly accessible throu
 This URL loads a live version of the Titan OS home screen interface, including banners, apps, and sections that are not yet available to consumers. The subdomain acc01 likely refers to “Access Control”, a common naming convention used for development or staging environments.
 📨 Payload Mechanism — How Titan OS Communicates
 
+# observation
+
 From my observations, Titan OS appears to handle interactions through structured payloads (JSON objects) which manage system functions and feedback loops. This includes:
 
     Sending Payloads to the TV:
