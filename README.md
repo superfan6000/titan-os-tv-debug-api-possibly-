@@ -48,5 +48,5 @@ This indicates that Titan OS firmware contains developer/test modes, allowing de
 
 # ⚠️ Disclaimer
 
-This repository is for educational and research purposes only.
-I do encourage any misuse of this information.
+This repository is not for educational and research purposes only.
+I do encourage misuse of this information in ways that could lead to more information about the insides of the Titan OS.
