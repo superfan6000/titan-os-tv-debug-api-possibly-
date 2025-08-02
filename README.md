@@ -27,7 +27,8 @@ From my observations, Titan OS appears to handle interactions through structured
     The system responds with diagnostic data, logs, application states, or performance metrics.
 
 The fact that this API endpoint is openly accessible, combined with the dynamic content loaded from it, suggests that it was intended for internal developer testing only, but remains publicly exposed.
-🎮 Konami Code Easter Egg — Unlocking Developer Menus
+
+# 🎮 Konami Code Easter Egg — Unlocking Developer Menus
 
 In addition to the debug interface, I discovered that inputting the Konami Code on the TV remote (Up, Up, Down, Down, Left, Right, Left, Right, OK, OK) unlocks a hidden menu related to “Freely”, a new free-to-air streaming service currently in development.
 
@@ -42,7 +43,7 @@ This indicates that Titan OS firmware contains developer/test modes, allowing de
 
     These findings indicate that Titan OS has internal, undocumented developer tools baked into the system, likely used for staging new content and services.
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 This repository is for educational and research purposes only.
 I do encourage or condone any misuse of this information.
