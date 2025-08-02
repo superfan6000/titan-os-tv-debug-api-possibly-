@@ -33,7 +33,7 @@ The fact that this API endpoint is openly accessible, combined with the dynamic 
 
 # 🎮 Konami Code Easter Egg — Unlocking Developer Menus
 
-In addition to the debug interface, I discovered that inputting the Konami Code on the TV remote (Up, Up, Down, Down, Left, Right, Left, Right, OK, OK) unlocks a hidden menu related to “Freely”, a new free-to-air streaming service currently in development.
+In addition to the debug interface, I discovered that inputting the Konami Code on the TV remote (Up, Up, Down, Down, Left, Right, Left, Right, OK, OK) unlocks a hidden payload being received related to “Freely”, a new free-to-air streaming service currently in development but no info of on Titan OS.
 
 This indicates that Titan OS firmware contains developer/test modes, allowing developers to access pre-release features directly on production devices using hidden shortcuts.
 🔍 Summary of Findings
@@ -42,7 +42,7 @@ This indicates that Titan OS firmware contains developer/test modes, allowing de
 
     Payloads are used to manage system functions and retrieve diagnostic data, with no visible security or authentication.
 
-    Hidden developer menus can be triggered via input sequences (Konami Code), revealing unreleased features such as “Freely”.
+    Hidden developer menus can be triggered via input sequences or other payloads , revealing unreleased features such as “Freely”.
 
     These findings indicate that Titan OS has internal, undocumented developer tools baked into the system, likely used for staging new content and services.
 
