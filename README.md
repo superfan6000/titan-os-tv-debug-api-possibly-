@@ -1,4 +1,4 @@
-#Titan OS TV Debug API — Developer Features and Hidden Menus
+# Titan OS TV Debug API — Developer Features and Hidden Menus
 
 This repository documents my findings regarding a hidden developer-centric debugging API and undocumented features within Titan OS, a web-based operating system used on Philips, JVC, and other smart TVs.
 
