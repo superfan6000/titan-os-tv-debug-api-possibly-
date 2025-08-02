@@ -5,7 +5,7 @@ This repository documents my findings regarding a hidden developer-centric debug
 Through independent research and testing, I’ve uncovered accessible URLs and Easter eggs that provide a rare look into the development process of Titan OS and how new features are staged and tested before public rollout.
 🖥️ Discovery of the Debugging Interface (https://acc01.titanos.tv/)
 
-# what i discovered: 
+# About the site
 
 I discovered that the URL https://acc01.titanos.tv/ is publicly accessible through any web browser, with no authentication or security restrictions.
 
