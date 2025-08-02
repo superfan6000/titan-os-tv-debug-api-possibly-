@@ -14,7 +14,17 @@ My initial discovery centered on the URL: https://acc01.titanos.tv/.
 
     Conclusion: The subdomain "acc01" is a common abbreviation for "access control," often used in development or testing environments. Coupled with the lack of restrictions and the presence of unreleased features, this strongly suggests that the URL leads to a staging or debugging environment used by Titan OS developers to test new features before they are officially rolled out.
 
-2. The "Freely" OS and the Konami Code Easter Egg
+2. The Role of Payloads in this API
+
+In the context of a developer API, "payloads" refer to the data sent to or received from the server. Given the nature of a TV operating system, it's highly likely that a debugging API like this would be used for a variety of functions:
+
+    Sending Payloads: A developer could send a payload (e.g., a JSON object) to the TV to issue a command. For instance, a command could be sent to change a display setting, trigger a specific app to open, or simulate a remote control button press.
+
+    Receiving Payloads: The TV would then send a payload back to the developer with information in response. This could include diagnostic data, error logs, the current state of an application, or performance metrics. This allows developers to monitor and troubleshoot the OS in real-time.
+
+The accessibility of this endpoint without authentication means that anyone could potentially send and receive these payloads, which is a significant security oversight and a clear indicator of an internal-use-only tool.
+
+3. The "Freely" OS and the Konami Code Easter Egg
 
 During my investigation, I discovered a hidden feature that could be accessed via the famous Konami code on the TV remote.
 
@@ -26,4 +36,4 @@ During my investigation, I discovered a hidden feature that could be accessed vi
 
 Summary of Findings
 
-These two discoveries are closely linked. The hidden "Freely" menu, accessible via the Konami code, is a prime example of the kind of unreleased feature that would be tested on the debugging API at acc01.titanos.tv.
+These discoveries offer a unique look into the Titan OS development pipeline. The combination of an openly accessible debugging API and a hidden "Freely" menu confirms that the system has internal, undocumented functionalities designed for developers and that they are actively testing and preparing new features for future updates.
